@@ -1,0 +1,206 @@
+body {
+  font-family: 'Montserrat';
+}
+
+/* givespink-orange shade to page */
+#title {
+  color: white;
+  background-color: #ff4c68;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat';
+}
+
+.row {
+  padding: 5% 10%;
+}
+
+/* fontawesome color*/
+.fas:hover {
+  background-color: #ff4c68;
+}
+
+/* <pupppy title image> */
+.iphone {
+
+  width:40%;
+  transform: rotate(25deg);
+  /* to make phone image go behind the screen */
+  position: absolute;
+  /* z-index: -1; */
+  /* margin-right: :30%;  no need formargin-right as its position is absolute*/
+  right: 30%;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* to change the color ofdownload buttons to yellow when hovered */
+.btn:hover {
+  color: grey;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: 'ubuntu';
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'monteserrat-light';
+}
+
+/* download buttons */
+.download-buttons {
+  margin: 5% 3% 5% 0;
+}
+
+/* fetures */
+#features {
+  paddind: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  /* inorder to make phone image go behind the screen features box goes above it by making phone image below it */
+  z-index: 1;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.paragraph {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  /* to increase the gap between icon and text */
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials */
+/* 7% top and botton and 15%left and right */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #FFF;
+}
+
+.testimonial-image {
+  /* to provide gap between pupppy image and text Pebbles new york */
+  margin: 20px;
+  width: 20%;
+  border-radius:200%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  /* techcrunch mashable are suddenly ending with the border so we need give some space between bottom and text using padding*/
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  /* 20px top 20px left and right 15px on bottom */
+  margin: 20px 20px 15px;
+}
+
+/* indicators */
+.indicators {
+  margin-bottom: 20px;
+}
+
+/* carousel-item button space frfom text */
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* pricing section =gives space from all four sides to price tables*/
+#pricing {
+  text-align: center;
+  padding: 100px;
+}
+
+.card-body {
+  font-family: 'monteserrat-light';
+  color: #8f8f8f;
+}
+
+/* to pad the text and price box */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+#cta{
+font-family: 'Montserrat', sans-serif;
+color:#fff;
+  text-align: center;
+background-color: #ff4c68;
+padding:7% 15%;
+}
+#footer{
+font-family: 'Montserrat-light';
+text-align:center;
+
+}
+.footer-heading{
+  color:#8f8f8f;
+}
+.cta-heading{
+  font-family: 'monteserrat-light';
+  font-size:3rem;
+  height:1.5;
+}
+.footericons{
+  padding-top: 5px;
+margin:20px 10px;
+size:4px;
+}
